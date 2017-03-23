@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-斗鱼直播.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-斗鱼直播Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-斗鱼直播UITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5433A911771C44500DDB9633CD1417F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85FE75905E9EA38608169DD05B09536E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>91D2B624903AF14729CFAC28FD7353CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD30E081B559F901B46B9E3BB92D44F4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

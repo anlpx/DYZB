@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BE87B160B1BFADB3E452B39808BE24 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F49073113894FE292B3687B4ECB69 /* ConstraintLayoutSupportDSL.swift */; };
+		057AE932740485578893B2D8D8C1024B /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C2B9292B588439EC410BDD60AC4ED /* ConstraintMakerRelatable.swift */; };
+		12B30278E5BD3899CD00D846DA969266 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B1C84CB8B9ED6A88495862C479990 /* ConstraintAttributes.swift */; };
+		1B01C42230C66112FAD46C8CF16059DB /* Pods-斗鱼直播Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED43F6635C743DA4BCF0D11DD2A25496 /* Pods-斗鱼直播Tests-dummy.m */; };
+		1CE2F3A2C589D23A074154FF1B5503C4 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC30665F5851A91F53B06C1C5DB086F /* ConstraintMaker.swift */; };
+		235A6654A40B9951D23A3A70C7EBDFB8 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D51CAB784598D20B25F8D8697936547 /* ConstraintPriority.swift */; };
+		33783BDCE9BA3EBA8626EF3F4E4A59EB /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2911388ED349020316062C27A0552 /* ConstraintPriorityTarget.swift */; };
+		3789ECE008CCC27375195BAF38BC12F8 /* Pods-斗鱼直播-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B91D52AFACEC96D9697D3C780F6A4 /* Pods-斗鱼直播-dummy.m */; };
+		3E65B5A039CF4C4DCD67C1D20C8546C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		48FF28FABE0791445D6B3369819DF511 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13073B460DCA5A885901AEF7AB347371 /* ConstraintLayoutGuide.swift */; };
+		49681908FCE119C5284FEEF8DA4BDE87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4C8BAE5861A27A47925A6060EA2EF6D4 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DA246624787CFC6FA77FF2F1B30237 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50E27F315B1AF88F72F08E6538826F6A /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B293100C0290E65E0BC870B684749EE /* ConstraintInsets.swift */; };
+		600A27745883FE5CFD43948659DB56CB /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869EE947ABEB849C41E6E2759CB73461 /* ConstraintMakerPriortizable.swift */; };
+		6027FD027E583E33FB66785BCE34742E /* Pods-斗鱼直播UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0FE19AF7F96D073420F4C1B7F9258C /* Pods-斗鱼直播UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6155327AB69317B1CC34777CDD20FA59 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FC83115BE318FE6323B0F9EFF8AD4E /* ConstraintInsetTarget.swift */; };
+		632BB34A738B56099F808D0964A7F012 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E01187F1C611F313E97AF0FA73C9 /* SnapKit-dummy.m */; };
+		658CAD99F110B932DEBFC6CD39B9C7E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6973FF294A451D54F747682AA7836157 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A604DEAFF03D03BC699E72E10C67B71 /* ConstraintConfig.swift */; };
+		6D7D2097C4F92244628E3FF76BFD20FB /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542616B9ACD95DF820563AF6812054DB /* ConstraintView+Extensions.swift */; };
+		7024BC451243ED4CBCBBAE9BA8D777C6 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593ADC9CCA6A730223A7A1761308569E /* ConstraintMakerExtendable.swift */; };
+		78ACDAEE3F1BA8B7F5578860E6D2E65C /* Pods-斗鱼直播UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795D7DC107BE0692F585140DF5D6A084 /* Pods-斗鱼直播UITests-dummy.m */; };
+		79F1CE7F3B78AB745F134D876DDCC1E2 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D41E08E365B8155DF32EB5D064DEBD /* ConstraintMultiplierTarget.swift */; };
+		7D64EC394F16E52D8C7C3B5A795EFF40 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B3F31044A960BEE2B4EA495062C50 /* LayoutConstraintItem.swift */; };
+		801B44CB4EE8231EF4A45EDC1C176F67 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80D101E67AAC55EB7A7DA474138F29 /* ConstraintDescription.swift */; };
+		821C8E90D3639916E8566556C6AC6797 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8312E198200C0AEA234E70043168A5 /* Debugging.swift */; };
+		8604466507867F1B6538E6A4F907C849 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF82A6ACAA600E4D7DB0ED2CD8810552 /* UILayoutSupport+Extensions.swift */; };
+		970A67805D23AFCA5323613871CCEE70 /* Pods-斗鱼直播-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBFB2FA4AC1A16AC3381304D5B5DEA8 /* Pods-斗鱼直播-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0993DED6391AB9DEE49A1E5740C20C1 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7D51E12631CD67464E874DF8B217B /* ConstraintMakerEditable.swift */; };
+		B33B718E458E20CE5338976FADAF5F54 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9A2B12FAD5179289BD79BAC77D995 /* ConstraintConstantTarget.swift */; };
+		B4B04563C663F554E89B3743D6D2A8E7 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8146EFFBA522D816BA04C83EB0DF7B /* LayoutConstraint.swift */; };
+		B8F6382893C410D3B5A0F3C7FA9CC4C0 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EF9279D230438E1DF533F8BCBEC262 /* ConstraintOffsetTarget.swift */; };
+		BA67D660310D46FDA47C4B0DB9AD513F /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22B2BDC310B15F7DDC06B930A34C08 /* ConstraintViewDSL.swift */; };
+		C483BC9D370F6E4552C72EFEFB4A9A0B /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580BC912561D405845ED2A61C49CDBF /* ConstraintRelatableTarget.swift */; };
+		C876C9DD1CB8F17EC78EFD7C4C6C79B9 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462519E1C4775536E35556F3795C991 /* ConstraintLayoutSupport.swift */; };
+		CAB2792BA76702D5BF4B737461C963F0 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367805C3148DFB7993AC74CFD215DC2 /* ConstraintLayoutGuide+Extensions.swift */; };
+		CE1FDB90C382FDE59B3F3D5B5CA51E82 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEFE805792598886FC384C0B0A3EF38 /* ConstraintDSL.swift */; };
+		D3801EF87F5325840C9445D46C5B967E /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB07029E1AB6B48844606B94F63C7D3 /* ConstraintView.swift */; };
+		D3E3DB88D97A4ABAF8574CC0251C0F8E /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC92430472C5AD046E7F861C0EA03C /* Constraint.swift */; };
+		DD5A5299A986BD304B21FC4A4D35F761 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1CD2DEFFFFBE20323DBA9A34D77244 /* ConstraintLayoutGuideDSL.swift */; };
+		E0FDC1DA5E2D5882DF3E9D4D32FB08E8 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E88B541786D560F47EDA8B1F69331F /* ConstraintRelation.swift */; };
+		EB3231FE60F5168BD6E7202D0DCF7FE7 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DECDB5C71A137EEEA16CEB2DD800330 /* ConstraintItem.swift */; };
+		F777991EDAA44F74536E91DFA79A1672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F95CE2495B935D47406C45353B7818C2 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843C3DF394CE5E92C0ADD53F355D0CC /* ConstraintMakerFinalizable.swift */; };
+		FB2E56EB102A3E69D9F6D4ACFC17A56E /* Pods-斗鱼直播Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF47170F6DB695B198E8E1FD6BEA523 /* Pods-斗鱼直播Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00CAA880534A96A0071A775143ADB599 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D2B624903AF14729CFAC28FD7353CE;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EDF7B76E15E133BA8FB222E5504D03 /* Pods-斗鱼直播Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-斗鱼直播Tests-frameworks.sh"; sourceTree = "<group>"; };
+		06C2911388ED349020316062C27A0552 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		081E00E3ECB2585317F1AE7B513CFC43 /* Pods-斗鱼直播-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-斗鱼直播-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0843C3DF394CE5E92C0ADD53F355D0CC /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		0A604DEAFF03D03BC699E72E10C67B71 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		0AE2652CB3FDB956B7A65F6D5F57A395 /* Pods-斗鱼直播-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-斗鱼直播-frameworks.sh"; sourceTree = "<group>"; };
+		0B0A453636C1F962DEEDAD9FD8D1FA51 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		0F3B91D52AFACEC96D9697D3C780F6A4 /* Pods-斗鱼直播-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-斗鱼直播-dummy.m"; sourceTree = "<group>"; };
+		12E88B541786D560F47EDA8B1F69331F /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		13073B460DCA5A885901AEF7AB347371 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		1A6BDB5F0FBCAC3506F22584473F6020 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D79DD8FBF7925DEA4A8BCA5959469B5 /* Pods_____Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_____Tests.framework; path = "Pods-斗鱼直播Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2773355934432E0489EE8299368835BF /* Pods-斗鱼直播Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-斗鱼直播Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2815D2F2FB2AE083C4267870E33A75B8 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DA246624787CFC6FA77FF2F1B30237 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		2C0F49073113894FE292B3687B4ECB69 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		2F42F012150F2EB2DD398F931E8C1316 /* Pods-斗鱼直播-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-斗鱼直播-resources.sh"; sourceTree = "<group>"; };
+		359C2B9292B588439EC410BDD60AC4ED /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		37D41E08E365B8155DF32EB5D064DEBD /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		38A6AB0190EC13603A92F0D79673BF50 /* Pods-斗鱼直播UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-斗鱼直播UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		393C62935D7315DBBFAAA9C1397D1EAC /* Pods-斗鱼直播UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-斗鱼直播UITests.modulemap"; sourceTree = "<group>"; };
+		46CE9D3E9BD84A774AC07C0918683112 /* Pods_____UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_____UITests.framework; path = "Pods-斗鱼直播UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542616B9ACD95DF820563AF6812054DB /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		54B04DD12F6342C19E0EF6B3167130D3 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		593ADC9CCA6A730223A7A1761308569E /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		62EF9279D230438E1DF533F8BCBEC262 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		646B1C84CB8B9ED6A88495862C479990 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		6580BC912561D405845ED2A61C49CDBF /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		6948686C16D1F5780CF5D8001B9DF39B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6B3F31044A960BEE2B4EA495062C50 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		6B293100C0290E65E0BC870B684749EE /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		6C1CD2DEFFFFBE20323DBA9A34D77244 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		6D51CAB784598D20B25F8D8697936547 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		6DECDB5C71A137EEEA16CEB2DD800330 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		6FB0EA6F43AD7224A462329C62F6B138 /* Pods-斗鱼直播.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-斗鱼直播.release.xcconfig"; sourceTree = "<group>"; };
+		795D7DC107BE0692F585140DF5D6A084 /* Pods-斗鱼直播UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-斗鱼直播UITests-dummy.m"; sourceTree = "<group>"; };
+		7B9A30A6ECE83426B24C418007CC4B97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8146EFFBA522D816BA04C83EB0DF7B /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		7EF47170F6DB695B198E8E1FD6BEA523 /* Pods-斗鱼直播Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-斗鱼直播Tests-umbrella.h"; sourceTree = "<group>"; };
+		869EE947ABEB849C41E6E2759CB73461 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		8CBFB2FA4AC1A16AC3381304D5B5DEA8 /* Pods-斗鱼直播-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-斗鱼直播-umbrella.h"; sourceTree = "<group>"; };
+		8DEC92430472C5AD046E7F861C0EA03C /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		8DEFE805792598886FC384C0B0A3EF38 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		8E9A0B75DF347A35EC42EEA26B8F588C /* Pods-斗鱼直播UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-斗鱼直播UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9058654D33D1F993A6B6FD02BA692DBC /* Pods-斗鱼直播.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-斗鱼直播.debug.xcconfig"; sourceTree = "<group>"; };
+		9367805C3148DFB7993AC74CFD215DC2 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CB07029E1AB6B48844606B94F63C7D3 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		A462519E1C4775536E35556F3795C991 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		A812C5F1499D67C3BDBF4E5FCF78FACC /* Pods-斗鱼直播Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-斗鱼直播Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABC30665F5851A91F53B06C1C5DB086F /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		AE22B2BDC310B15F7DDC06B930A34C08 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		B00C885EF9A7F08F740EBBB479C59798 /* Pods-斗鱼直播Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-斗鱼直播Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0182703B9D0C1A17E35CE570A8F7DA2 /* Pods-斗鱼直播Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-斗鱼直播Tests.modulemap"; sourceTree = "<group>"; };
+		B6AEA9AE6222B5EC4B9075A876A67E78 /* Pods-斗鱼直播Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-斗鱼直播Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BE9407E21FB0971775F37944C3F90DCA /* Pods-斗鱼直播Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-斗鱼直播Tests-resources.sh"; sourceTree = "<group>"; };
+		BEB8EC7AEC83C5F5E4E379B4A7258956 /* Pods-斗鱼直播UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-斗鱼直播UITests-frameworks.sh"; sourceTree = "<group>"; };
+		BF0FE19AF7F96D073420F4C1B7F9258C /* Pods-斗鱼直播UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-斗鱼直播UITests-umbrella.h"; sourceTree = "<group>"; };
+		C78D9100A663E6501F912089BC90230C /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		C7F37FF409B18EB3A0CA5A7BBE123604 /* Pods-斗鱼直播.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-斗鱼直播.modulemap"; sourceTree = "<group>"; };
+		C8AF876C4696EC9CE2F16B8ACCB220AA /* Pods-斗鱼直播-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-斗鱼直播-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE275B3DD9CB1B6A31EF593AB104F10B /* Pods-斗鱼直播UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-斗鱼直播UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFD7D51E12631CD67464E874DF8B217B /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		D8BB5B722D3261EEAE0948D7E272CCF5 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_____.framework; path = "Pods-斗鱼直播.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8312E198200C0AEA234E70043168A5 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		E349D25CF7E346D67092EDF90FDFD8EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A851AD6D19DA234DF98F3F1861A51C /* Pods-斗鱼直播UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-斗鱼直播UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5FC83115BE318FE6323B0F9EFF8AD4E /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		ECE9A2B12FAD5179289BD79BAC77D995 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		ED43F6635C743DA4BCF0D11DD2A25496 /* Pods-斗鱼直播Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-斗鱼直播Tests-dummy.m"; sourceTree = "<group>"; };
+		EF82A6ACAA600E4D7DB0ED2CD8810552 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		F79AADBFE1C65BB8F022AFFEF28CE65C /* Pods-斗鱼直播UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-斗鱼直播UITests-resources.sh"; sourceTree = "<group>"; };
+		FC80D101E67AAC55EB7A7DA474138F29 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		FDB2E01187F1C611F313E97AF0FA73C9 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		038F8CA8B030246B5624F18D23958E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				658CAD99F110B932DEBFC6CD39B9C7E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEFEEE803AC90C0FBEDF437B368EC13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F777991EDAA44F74536E91DFA79A1672 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EBE7DCDF6F0B7DE740694E1B57550E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E65B5A039CF4C4DCD67C1D20C8546C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A278CF2FAD95B61B02E1F135E186675F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49681908FCE119C5284FEEF8DA4BDE87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A4E60F35D2DE5B53B4B50478AA673FE /* Pods-斗鱼直播UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B9A30A6ECE83426B24C418007CC4B97 /* Info.plist */,
+				393C62935D7315DBBFAAA9C1397D1EAC /* Pods-斗鱼直播UITests.modulemap */,
+				CE275B3DD9CB1B6A31EF593AB104F10B /* Pods-斗鱼直播UITests-acknowledgements.markdown */,
+				38A6AB0190EC13603A92F0D79673BF50 /* Pods-斗鱼直播UITests-acknowledgements.plist */,
+				795D7DC107BE0692F585140DF5D6A084 /* Pods-斗鱼直播UITests-dummy.m */,
+				BEB8EC7AEC83C5F5E4E379B4A7258956 /* Pods-斗鱼直播UITests-frameworks.sh */,
+				F79AADBFE1C65BB8F022AFFEF28CE65C /* Pods-斗鱼直播UITests-resources.sh */,
+				BF0FE19AF7F96D073420F4C1B7F9258C /* Pods-斗鱼直播UITests-umbrella.h */,
+				E3A851AD6D19DA234DF98F3F1861A51C /* Pods-斗鱼直播UITests.debug.xcconfig */,
+				8E9A0B75DF347A35EC42EEA26B8F588C /* Pods-斗鱼直播UITests.release.xcconfig */,
+			);
+			name = "Pods-斗鱼直播UITests";
+			path = "Target Support Files/Pods-斗鱼直播UITests";
+			sourceTree = "<group>";
+		};
+		30D5D79BDFE43A47D1E3054CA56C4759 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EBCB7D2291B83033FEAC6DFA6F55730 /* Pods-斗鱼直播 */,
+				39C7F8DF7BAD4E99B3AB00699E70CE12 /* Pods-斗鱼直播Tests */,
+				0A4E60F35D2DE5B53B4B50478AA673FE /* Pods-斗鱼直播UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39C7F8DF7BAD4E99B3AB00699E70CE12 /* Pods-斗鱼直播Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6948686C16D1F5780CF5D8001B9DF39B /* Info.plist */,
+				B0182703B9D0C1A17E35CE570A8F7DA2 /* Pods-斗鱼直播Tests.modulemap */,
+				B00C885EF9A7F08F740EBBB479C59798 /* Pods-斗鱼直播Tests-acknowledgements.markdown */,
+				A812C5F1499D67C3BDBF4E5FCF78FACC /* Pods-斗鱼直播Tests-acknowledgements.plist */,
+				ED43F6635C743DA4BCF0D11DD2A25496 /* Pods-斗鱼直播Tests-dummy.m */,
+				00EDF7B76E15E133BA8FB222E5504D03 /* Pods-斗鱼直播Tests-frameworks.sh */,
+				BE9407E21FB0971775F37944C3F90DCA /* Pods-斗鱼直播Tests-resources.sh */,
+				7EF47170F6DB695B198E8E1FD6BEA523 /* Pods-斗鱼直播Tests-umbrella.h */,
+				2773355934432E0489EE8299368835BF /* Pods-斗鱼直播Tests.debug.xcconfig */,
+				B6AEA9AE6222B5EC4B9075A876A67E78 /* Pods-斗鱼直播Tests.release.xcconfig */,
+			);
+			name = "Pods-斗鱼直播Tests";
+			path = "Target Support Files/Pods-斗鱼直播Tests";
+			sourceTree = "<group>";
+		};
+		5EBCB7D2291B83033FEAC6DFA6F55730 /* Pods-斗鱼直播 */ = {
+			isa = PBXGroup;
+			children = (
+				E349D25CF7E346D67092EDF90FDFD8EF /* Info.plist */,
+				C7F37FF409B18EB3A0CA5A7BBE123604 /* Pods-斗鱼直播.modulemap */,
+				081E00E3ECB2585317F1AE7B513CFC43 /* Pods-斗鱼直播-acknowledgements.markdown */,
+				C8AF876C4696EC9CE2F16B8ACCB220AA /* Pods-斗鱼直播-acknowledgements.plist */,
+				0F3B91D52AFACEC96D9697D3C780F6A4 /* Pods-斗鱼直播-dummy.m */,
+				0AE2652CB3FDB956B7A65F6D5F57A395 /* Pods-斗鱼直播-frameworks.sh */,
+				2F42F012150F2EB2DD398F931E8C1316 /* Pods-斗鱼直播-resources.sh */,
+				8CBFB2FA4AC1A16AC3381304D5B5DEA8 /* Pods-斗鱼直播-umbrella.h */,
+				9058654D33D1F993A6B6FD02BA692DBC /* Pods-斗鱼直播.debug.xcconfig */,
+				6FB0EA6F43AD7224A462329C62F6B138 /* Pods-斗鱼直播.release.xcconfig */,
+			);
+			name = "Pods-斗鱼直播";
+			path = "Target Support Files/Pods-斗鱼直播";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A24957659B562070C6FD54002E0330AF /* Pods */,
+				9E6D900E544681186389FA74841DCF34 /* Products */,
+				30D5D79BDFE43A47D1E3054CA56C4759 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E40BDD214753E1F70F3A4ABE61A6C7A /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				8DEC92430472C5AD046E7F861C0EA03C /* Constraint.swift */,
+				646B1C84CB8B9ED6A88495862C479990 /* ConstraintAttributes.swift */,
+				0A604DEAFF03D03BC699E72E10C67B71 /* ConstraintConfig.swift */,
+				ECE9A2B12FAD5179289BD79BAC77D995 /* ConstraintConstantTarget.swift */,
+				FC80D101E67AAC55EB7A7DA474138F29 /* ConstraintDescription.swift */,
+				8DEFE805792598886FC384C0B0A3EF38 /* ConstraintDSL.swift */,
+				6B293100C0290E65E0BC870B684749EE /* ConstraintInsets.swift */,
+				E5FC83115BE318FE6323B0F9EFF8AD4E /* ConstraintInsetTarget.swift */,
+				6DECDB5C71A137EEEA16CEB2DD800330 /* ConstraintItem.swift */,
+				13073B460DCA5A885901AEF7AB347371 /* ConstraintLayoutGuide.swift */,
+				9367805C3148DFB7993AC74CFD215DC2 /* ConstraintLayoutGuide+Extensions.swift */,
+				6C1CD2DEFFFFBE20323DBA9A34D77244 /* ConstraintLayoutGuideDSL.swift */,
+				A462519E1C4775536E35556F3795C991 /* ConstraintLayoutSupport.swift */,
+				2C0F49073113894FE292B3687B4ECB69 /* ConstraintLayoutSupportDSL.swift */,
+				ABC30665F5851A91F53B06C1C5DB086F /* ConstraintMaker.swift */,
+				CFD7D51E12631CD67464E874DF8B217B /* ConstraintMakerEditable.swift */,
+				593ADC9CCA6A730223A7A1761308569E /* ConstraintMakerExtendable.swift */,
+				0843C3DF394CE5E92C0ADD53F355D0CC /* ConstraintMakerFinalizable.swift */,
+				869EE947ABEB849C41E6E2759CB73461 /* ConstraintMakerPriortizable.swift */,
+				359C2B9292B588439EC410BDD60AC4ED /* ConstraintMakerRelatable.swift */,
+				37D41E08E365B8155DF32EB5D064DEBD /* ConstraintMultiplierTarget.swift */,
+				62EF9279D230438E1DF533F8BCBEC262 /* ConstraintOffsetTarget.swift */,
+				6D51CAB784598D20B25F8D8697936547 /* ConstraintPriority.swift */,
+				06C2911388ED349020316062C27A0552 /* ConstraintPriorityTarget.swift */,
+				6580BC912561D405845ED2A61C49CDBF /* ConstraintRelatableTarget.swift */,
+				12E88B541786D560F47EDA8B1F69331F /* ConstraintRelation.swift */,
+				9CB07029E1AB6B48844606B94F63C7D3 /* ConstraintView.swift */,
+				542616B9ACD95DF820563AF6812054DB /* ConstraintView+Extensions.swift */,
+				AE22B2BDC310B15F7DDC06B930A34C08 /* ConstraintViewDSL.swift */,
+				DC8312E198200C0AEA234E70043168A5 /* Debugging.swift */,
+				7D8146EFFBA522D816BA04C83EB0DF7B /* LayoutConstraint.swift */,
+				6A6B3F31044A960BEE2B4EA495062C50 /* LayoutConstraintItem.swift */,
+				EF82A6ACAA600E4D7DB0ED2CD8810552 /* UILayoutSupport+Extensions.swift */,
+				CC7756E5073E7584BFE69508FFBBCB90 /* Support Files */,
+			);
+			name = SnapKit;
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		9E6D900E544681186389FA74841DCF34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB5B722D3261EEAE0948D7E272CCF5 /* Pods_____.framework */,
+				1D79DD8FBF7925DEA4A8BCA5959469B5 /* Pods_____Tests.framework */,
+				46CE9D3E9BD84A774AC07C0918683112 /* Pods_____UITests.framework */,
+				2815D2F2FB2AE083C4267870E33A75B8 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24957659B562070C6FD54002E0330AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E40BDD214753E1F70F3A4ABE61A6C7A /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC7756E5073E7584BFE69508FFBBCB90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A6BDB5F0FBCAC3506F22584473F6020 /* Info.plist */,
+				0B0A453636C1F962DEEDAD9FD8D1FA51 /* SnapKit.modulemap */,
+				54B04DD12F6342C19E0EF6B3167130D3 /* SnapKit.xcconfig */,
+				FDB2E01187F1C611F313E97AF0FA73C9 /* SnapKit-dummy.m */,
+				C78D9100A663E6501F912089BC90230C /* SnapKit-prefix.pch */,
+				29DA246624787CFC6FA77FF2F1B30237 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		075AF89813635008B7B4576B46C8AA94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8BAE5861A27A47925A6060EA2EF6D4 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648ED007788F5FEF776CE66FC44D727E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6027FD027E583E33FB66785BCE34742E /* Pods-斗鱼直播UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1AD1BA4F1D30B1730BFF11537E2EEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2E56EB102A3E69D9F6D4ACFC17A56E /* Pods-斗鱼直播Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98F3149A5889C71A6FE14BB81A766E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970A67805D23AFCA5323613871CCEE70 /* Pods-斗鱼直播-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5433A911771C44500DDB9633CD1417F1 /* Pods-斗鱼直播UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A7771FC7907C42128752944C951B06 /* Build configuration list for PBXNativeTarget "Pods-斗鱼直播UITests" */;
+			buildPhases = (
+				DD5159803FF825C762FE94D01F0BD353 /* Sources */,
+				2BEFEEE803AC90C0FBEDF437B368EC13 /* Frameworks */,
+				648ED007788F5FEF776CE66FC44D727E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-斗鱼直播UITests";
+			productName = "Pods-斗鱼直播UITests";
+			productReference = 46CE9D3E9BD84A774AC07C0918683112 /* Pods_____UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85FE75905E9EA38608169DD05B09536E /* Pods-斗鱼直播Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9EBBBE8F390358657C5453C69DB4F6 /* Build configuration list for PBXNativeTarget "Pods-斗鱼直播Tests" */;
+			buildPhases = (
+				0C61A4D6AA96FD326A619886E1C3270A /* Sources */,
+				A278CF2FAD95B61B02E1F135E186675F /* Frameworks */,
+				6E1AD1BA4F1D30B1730BFF11537E2EEC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-斗鱼直播Tests";
+			productName = "Pods-斗鱼直播Tests";
+			productReference = 1D79DD8FBF7925DEA4A8BCA5959469B5 /* Pods_____Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91D2B624903AF14729CFAC28FD7353CE /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2A159E0EB1DACDB0F1018A264D10B4 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				B2FA1A07AE4C7D14C17E9E21D69AC0C2 /* Sources */,
+				40EBE7DCDF6F0B7DE740694E1B57550E /* Frameworks */,
+				075AF89813635008B7B4576B46C8AA94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 2815D2F2FB2AE083C4267870E33A75B8 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD30E081B559F901B46B9E3BB92D44F4 /* Pods-斗鱼直播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0E96E7FC63C9CBE4C719B12701585A7 /* Build configuration list for PBXNativeTarget "Pods-斗鱼直播" */;
+			buildPhases = (
+				2974D41EBAB31B870D46EAD5FE603347 /* Sources */,
+				038F8CA8B030246B5624F18D23958E47 /* Frameworks */,
+				A98F3149A5889C71A6FE14BB81A766E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B6F85F7CE6089E7BA8387324B878CDA /* PBXTargetDependency */,
+			);
+			name = "Pods-斗鱼直播";
+			productName = "Pods-斗鱼直播";
+			productReference = D8BB5B722D3261EEAE0948D7E272CCF5 /* Pods_____.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9E6D900E544681186389FA74841DCF34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD30E081B559F901B46B9E3BB92D44F4 /* Pods-斗鱼直播 */,
+				85FE75905E9EA38608169DD05B09536E /* Pods-斗鱼直播Tests */,
+				5433A911771C44500DDB9633CD1417F1 /* Pods-斗鱼直播UITests */,
+				91D2B624903AF14729CFAC28FD7353CE /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C61A4D6AA96FD326A619886E1C3270A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B01C42230C66112FAD46C8CF16059DB /* Pods-斗鱼直播Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2974D41EBAB31B870D46EAD5FE603347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3789ECE008CCC27375195BAF38BC12F8 /* Pods-斗鱼直播-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FA1A07AE4C7D14C17E9E21D69AC0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E3DB88D97A4ABAF8574CC0251C0F8E /* Constraint.swift in Sources */,
+				12B30278E5BD3899CD00D846DA969266 /* ConstraintAttributes.swift in Sources */,
+				6973FF294A451D54F747682AA7836157 /* ConstraintConfig.swift in Sources */,
+				B33B718E458E20CE5338976FADAF5F54 /* ConstraintConstantTarget.swift in Sources */,
+				801B44CB4EE8231EF4A45EDC1C176F67 /* ConstraintDescription.swift in Sources */,
+				CE1FDB90C382FDE59B3F3D5B5CA51E82 /* ConstraintDSL.swift in Sources */,
+				50E27F315B1AF88F72F08E6538826F6A /* ConstraintInsets.swift in Sources */,
+				6155327AB69317B1CC34777CDD20FA59 /* ConstraintInsetTarget.swift in Sources */,
+				EB3231FE60F5168BD6E7202D0DCF7FE7 /* ConstraintItem.swift in Sources */,
+				CAB2792BA76702D5BF4B737461C963F0 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				48FF28FABE0791445D6B3369819DF511 /* ConstraintLayoutGuide.swift in Sources */,
+				DD5A5299A986BD304B21FC4A4D35F761 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				C876C9DD1CB8F17EC78EFD7C4C6C79B9 /* ConstraintLayoutSupport.swift in Sources */,
+				01BE87B160B1BFADB3E452B39808BE24 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				1CE2F3A2C589D23A074154FF1B5503C4 /* ConstraintMaker.swift in Sources */,
+				B0993DED6391AB9DEE49A1E5740C20C1 /* ConstraintMakerEditable.swift in Sources */,
+				7024BC451243ED4CBCBBAE9BA8D777C6 /* ConstraintMakerExtendable.swift in Sources */,
+				F95CE2495B935D47406C45353B7818C2 /* ConstraintMakerFinalizable.swift in Sources */,
+				600A27745883FE5CFD43948659DB56CB /* ConstraintMakerPriortizable.swift in Sources */,
+				057AE932740485578893B2D8D8C1024B /* ConstraintMakerRelatable.swift in Sources */,
+				79F1CE7F3B78AB745F134D876DDCC1E2 /* ConstraintMultiplierTarget.swift in Sources */,
+				B8F6382893C410D3B5A0F3C7FA9CC4C0 /* ConstraintOffsetTarget.swift in Sources */,
+				235A6654A40B9951D23A3A70C7EBDFB8 /* ConstraintPriority.swift in Sources */,
+				33783BDCE9BA3EBA8626EF3F4E4A59EB /* ConstraintPriorityTarget.swift in Sources */,
+				C483BC9D370F6E4552C72EFEFB4A9A0B /* ConstraintRelatableTarget.swift in Sources */,
+				E0FDC1DA5E2D5882DF3E9D4D32FB08E8 /* ConstraintRelation.swift in Sources */,
+				6D7D2097C4F92244628E3FF76BFD20FB /* ConstraintView+Extensions.swift in Sources */,
+				D3801EF87F5325840C9445D46C5B967E /* ConstraintView.swift in Sources */,
+				BA67D660310D46FDA47C4B0DB9AD513F /* ConstraintViewDSL.swift in Sources */,
+				821C8E90D3639916E8566556C6AC6797 /* Debugging.swift in Sources */,
+				B4B04563C663F554E89B3743D6D2A8E7 /* LayoutConstraint.swift in Sources */,
+				7D64EC394F16E52D8C7C3B5A795EFF40 /* LayoutConstraintItem.swift in Sources */,
+				632BB34A738B56099F808D0964A7F012 /* SnapKit-dummy.m in Sources */,
+				8604466507867F1B6538E6A4F907C849 /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5159803FF825C762FE94D01F0BD353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78ACDAEE3F1BA8B7F5578860E6D2E65C /* Pods-斗鱼直播UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B6F85F7CE6089E7BA8387324B878CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 91D2B624903AF14729CFAC28FD7353CE /* SnapKit */;
+			targetProxy = 00CAA880534A96A0071A775143ADB599 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F4C1B1B3969CFEEFD8F5EDA09057EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A851AD6D19DA234DF98F3F1861A51C /* Pods-斗鱼直播UITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-斗鱼直播UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-斗鱼直播UITests/Pods-斗鱼直播UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_____UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B85CF56B4F1FACDB537539416A668F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B04DD12F6342C19E0EF6B3167130D3 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FAE85EA29E3AAA7B04348AF383CE301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9058654D33D1F993A6B6FD02BA692DBC /* Pods-斗鱼直播.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-斗鱼直播/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-斗鱼直播/Pods-斗鱼直播.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_____;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D2A337724F2660CE1D8887475597640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AEA9AE6222B5EC4B9075A876A67E78 /* Pods-斗鱼直播Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-斗鱼直播Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-斗鱼直播Tests/Pods-斗鱼直播Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_____Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FAFC3750EDB6A11C70C6A93DD533729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9A0B75DF347A35EC42EEA26B8F588C /* Pods-斗鱼直播UITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-斗鱼直播UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-斗鱼直播UITests/Pods-斗鱼直播UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_____UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3884872AA1FDA0880119DD2B8D6F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB0EA6F43AD7224A462329C62F6B138 /* Pods-斗鱼直播.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-斗鱼直播/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-斗鱼直播/Pods-斗鱼直播.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_____;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E76C353C2153D076118360216447C1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2773355934432E0489EE8299368835BF /* Pods-斗鱼直播Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-斗鱼直播Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-斗鱼直播Tests/Pods-斗鱼直播Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_____Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9B2D38237124E529B83719461FCC50C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B04DD12F6342C19E0EF6B3167130D3 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A7771FC7907C42128752944C951B06 /* Build configuration list for PBXNativeTarget "Pods-斗鱼直播UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4C1B1B3969CFEEFD8F5EDA09057EB1 /* Debug */,
+				9FAFC3750EDB6A11C70C6A93DD533729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9EBBBE8F390358657C5453C69DB4F6 /* Build configuration list for PBXNativeTarget "Pods-斗鱼直播Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76C353C2153D076118360216447C1E7 /* Debug */,
+				8D2A337724F2660CE1D8887475597640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2A159E0EB1DACDB0F1018A264D10B4 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B85CF56B4F1FACDB537539416A668F8 /* Debug */,
+				E9B2D38237124E529B83719461FCC50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0E96E7FC63C9CBE4C719B12701585A7 /* Build configuration list for PBXNativeTarget "Pods-斗鱼直播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAE85EA29E3AAA7B04348AF383CE301 /* Debug */,
+				DA3884872AA1FDA0880119DD2B8D6F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
